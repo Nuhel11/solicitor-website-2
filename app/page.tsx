@@ -77,7 +77,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
-              <div className="aspect-[4/5] bg-slate-100 rounded-2xl overflow-hidden relative z-10 border border-slate-200 shadow-xl flex items-center justify-center">
+              <div className="aspect-4/5 bg-slate-100 rounded-2xl overflow-hidden relative z-10 border border-slate-200 shadow-xl flex items-center justify-center">
                  <span className="text-slate-400 italic font-serif text-sm">[Your Professional Image]</span>
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-2xl border border-slate-100 z-20 max-w-[240px]">
