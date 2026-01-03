@@ -1,0 +1,18 @@
+{
+  "conveyancing": {
+    "title": "Residential Conveyancing",
+    "fixedFee": "£850 - £1,500",
+    "vat": "20%",
+    "disbursements": [
+      { "item": "HM Land Registry fee", "cost": "£150" },
+      { "item": "Search fees", "cost": "£300" }
+    ],
+    "stages": [
+      "Taking instructions and initial checks",
+      "Checking title and contracts",
+      "Exchange of contracts",
+      "Completion"
+    ],
+    "timescale": "8-12 weeks on average"
+  }
+}
