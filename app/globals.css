@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

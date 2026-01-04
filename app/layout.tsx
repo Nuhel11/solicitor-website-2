@@ -27,13 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-GB"> 
+    <html lang="en-GB" className="light">{/* Force light mode class */}
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
         
         <Navbar />
         
-        <main className="flex-grow">
+        <main className="grow bg-white">
           {children}
         </main>
 
