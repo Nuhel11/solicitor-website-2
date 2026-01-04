@@ -1,6 +1,7 @@
 // app/legal/complaints/page.tsx
 export default function ComplaintsPage() {
   return (
+    <main className="min-h-screen bg-white text-slate-900">
     <article className="max-w-3xl mx-auto py-16 px-6 prose prose-slate">
       <h1 className="text-3xl font-serif font-bold text-slate-900 mb-6">Complaints Procedure</h1>
       <p className="text-lg text-slate-600 mb-8">
@@ -60,5 +61,6 @@ export default function ComplaintsPage() {
         </p>
       </section>
     </article>
+    </main>
   );
 }

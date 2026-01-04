@@ -1,7 +1,8 @@
 // app/legal/privacy-policy/page.tsx
 export default function PrivacyPolicy() {
   return (
-    <article className="max-w-4xl mx-auto py-16 px-6 prose prose-slate">
+    <main className="min-h-screen bg-white text-slate-900">
+    <article className="max-w-4xl mx-auto py-16 px-6 prose prose-slate prose-headings:text-slate-900">
       <h1 className="text-3xl font-serif font-bold text-slate-900">Privacy Policy</h1>
       <p className="lead text-slate-600">
         This policy explains how we, <strong>[Your Firm Name]</strong>, collect and use your personal data in accordance with the UK General Data Protection Regulation (UK GDPR).
@@ -64,5 +65,6 @@ export default function PrivacyPolicy() {
         <p><strong>Visit:</strong> <a href="https://ico.org.uk" target="_blank">www.ico.org.uk</a></p>
       </section>
     </article>
+    </main>
   );
 }
